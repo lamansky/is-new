@@ -1,0 +1,31 @@
+{
+  "name": "is-new",
+  "version": "1.0.0",
+  "description": "A function that remembers the values passed to it and returns true if a value is new.",
+  "keywords": [
+    "new",
+    "unique"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/is-new",
+  "repository": "lamansky/is-new",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {
+    "weakish-set": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
